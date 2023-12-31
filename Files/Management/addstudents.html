@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Add Students</title>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    <link href="../../fontawesome/css/all.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Oxygen&family=Playfair+Display:wght@500&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="background">
+    <h1 class="header first">Add Students to Hostel</h1>
+
+    <div class="form_container">
+      <p class="sub_heading first">Student Information</p>
+      <div class="student_information">
+        <input type="text" class="value fname" placeholder="First Name" />
+        <input type="text" class="value lname" placeholder="Last Name" />
+        <input type="date" class="value DOB" placeholder="Date of Birth" />
+        <input type="text" class="value id" placeholder="Student ID" />
+        <input type="number" class="value age" placeholder="Age" />
+        <input type="text" class="value dept" placeholder="Department" />
+      </div>
+
+      <p class="sub_heading">Address</p>
+      <div class="address">
+        <input
+          type="text"
+          class="value2 address"
+          placeholder="Street Address"
+        />
+        <div class="student_address">
+          <input type="text" class="value city" placeholder="City" />
+          <input type="text" class="value province" placeholder="Province" />
+          <input type="text" class="value country" placeholder="Country" />
+          <input type="text" class="value code" placeholder="ZIP Code" />
+        </div>
+      </div>
+
+      <p class="sub_heading">Contact Information</p>
+      <div class="student_contact">
+        <input type="text" class="value email" placeholder="Email" />
+        <input type="text" class="value cellno" placeholder="Cell No#" />
+      </div>
+
+      <p class="sub_heading">Room Information</p>
+      <div class="student_room">
+        <input type="text" class="value room" placeholder="Room No." />
+        <input type="text" class="value floor" placeholder="Floor" />
+      </div>
+
+      <div class="field">
+        <button class="submit" onclick="addStudentForm()">Submit</button>
+      </div>
+
+      <div class="student-added"></div>
+    </div>
+  </body>
+  <script type="text/javascript" src="../../script.js"></script>
+</html>
