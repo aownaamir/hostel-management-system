@@ -4,6 +4,7 @@ The "Hostel Management System" project, leveraging HTML, CSS, and JavaScript wit
 <h4>Management Password: 123456</h4>
 <h4>Student Email : manager@gmail.com</h4>
 <h4>Student Password: 123456</h4>
+
 # Screen-Shots
 <img width="960" alt="hms main" src="https://github.com/aownaamir/Hostel-Management-System/assets/141690891/efce5124-221a-45e4-af3f-98048930f9ff">
 <img width="354" alt="hms 2nd" src="https://github.com/aownaamir/Hostel-Management-System/assets/141690891/44e60d10-7177-4547-a56d-1c74a7187ed4">
